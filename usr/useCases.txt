@@ -1,0 +1,37 @@
+1. Simple packet counter to learn framework:
+    - setup dir app_aelz,complile                                   /* done */
+    - receive commands from CLI interface                           /* done */
+    - count messages from pcap file                                 /* done */
+    - repeat configuraiton from scratch and update README, INSTALL  /* done */
+    - send for review to blockmon owners                            /* None due to minor changes */
+    - git own repo, join to blockmon                                /* done */
+    - codeblocks, git path
+
+Definition of done (DoD):
+    - README, INSTALL are available
+    - own repo created (analog /usr/app_*).
+    - own code compiled/ run together with blockmon
+
+2. Icmp analyser:
+    - receive commands from CLI interface
+    - analyse messages from pcap file
+    - analyse different icmp msg types in pcap mix
+
+DoD: ?
+
+3. Icmp advanced analyser:
+    - should analyse message body for different icmp msg types in pcap mix ?
+    - receive commands from python daemon via graphical interface (proto)
+    - receive message from  existing eth0 / wlan0 / lo? interface
+    - receive messages from custom created interface (loopback)
+
+4. Analyse available open source modules:
+    - analyse available OSM based on blockmon package
+    - which one are mandatory in our current architecture / which one are
+    - what kind of license for mandatory OSM ?
+
+DoD:
+    - List of OSM modules with comments where used (Just enough principle)
+    - First draft of System Arhcitecture
+
+
